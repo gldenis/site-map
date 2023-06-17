@@ -1,0 +1,11 @@
+<svg width="156" height="28" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <g id="Layer_1">
+  <text transform="matrix(1.46702 0 0 0.667425 -22.0282 17.7961)" stroke="#000" xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" id="svg_1" y="3.5" x="18" stroke-width="0" fill="currentColor"/>
+  <text xml:space="preserve" text-anchor="start" font-family="'Roboto Mono'" font-size="24" id="svg_2" y="23.44407" x="10" stroke-width="0" stroke="#000" fill="currentColor">1</text>
+  <text transform="matrix(1 0 0 1 0 0)" xml:space="preserve" text-anchor="start" font-family="'Roboto Mono'" font-size="24" id="svg_3" y="23.44408" x="70.79759" stroke-width="0" stroke="#000" fill="currentColor">2</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Roboto Mono'" font-size="24" id="svg_4" y="23.44408" x="132" stroke-width="0" stroke="#000" fill="currentColor">3</text>
+  <path stroke="#000" id="svg_12" d="m40.81411,18.55249c-0.84143,-0.25318 -0.73104,-0.4065 1.31473,-1.82576c1.03301,-0.71665 1.8782,-1.32383 1.8782,-1.34928c0,-0.02545 -2.85251,-0.04628 -6.33893,-0.04628l-6.33893,0l0,-1.34222l0,-1.34222l6.38917,0c4.92641,0 6.33417,-0.04043 6.14898,-0.17661c-0.1321,-0.09713 -1.03325,-0.7417 -2.00254,-1.43236c-1.82713,-1.30192 -1.82656,-1.65106 0.00282,-1.75929c0.91041,-0.05386 15.08447,4.08417 15.57166,4.54605c-4.72125,1.64917 -10.36475,3.37543 -15.56334,4.8975c-0.27411,0 -0.75193,-0.07629 -1.06183,-0.16954l0,0z" stroke-width="0" fill="currentColor"/>
+  <path stroke="#000" id="svg_13" d="m102.75613,18.5525c-0.84143,-0.25319 -0.73103,-0.4065 1.31474,-1.82576c1.03301,-0.71665 1.8782,-1.32383 1.8782,-1.34928c0,-0.02546 -2.85251,-0.04628 -6.33893,-0.04628l-6.33893,0l0,-1.34222l0,-1.34221l6.38917,0c4.92641,0 6.33417,-0.04044 6.14897,-0.17661c-0.1321,-0.09714 -1.03324,-0.7417 -2.00253,-1.43237c-1.82713,-1.30192 -1.82656,-1.65106 0.00282,-1.75928c0.91041,-0.05386 15.08447,4.08417 15.57166,4.54605c-4.72125,1.64917 -10.36475,3.37543 -15.56334,4.8975c-0.2741,0 -0.75192,-0.07629 -1.06183,-0.16954l0,0z" stroke-width="0" fill="currentColor"/>
+ </g>
+
+</svg>

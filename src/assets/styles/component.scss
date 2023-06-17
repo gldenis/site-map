@@ -1,0 +1,37 @@
+.component {
+    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    padding: 5px;
+    border-radius: 5px;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 12px;
+
+    & * {
+        user-select: none;
+    }
+
+    &:hover::after {
+        display: block;
+    }
+
+    &:active::after {
+        display: none;
+    }
+
+    &:after {
+        content: attr(data-title);
+        display: none;
+        position: absolute;
+        top: -5px;
+        transform: translateY(-100%);
+        padding: 3px 7px;
+        border-radius: 5px;
+        font-size: 12px;
+        background: #353d4d;
+        max-width: 100px;
+        width: max-content;
+        text-align: center;
+    }
+}

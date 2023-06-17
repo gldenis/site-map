@@ -1,0 +1,140 @@
+@import 'base.scss';
+
+:root {
+  --page-bg: #445670;
+}
+
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--page-bg);
+  color: #fff;
+  font-family: "Roboto", "Trebuchet MS", sans-serif;
+}
+
+#app {
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "header header"
+  "components content"
+  "footer footer";
+  grid-template-columns: 325px 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.page {
+  &__header {
+    grid-area: header;
+    background: #000;
+  }
+  &__components {
+    grid-area: components;
+    background: #5e718b;
+    max-height: 100%;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background: #fff;        /* color of the tracking area */
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #18c4a9;
+    }
+  }
+  &__content {
+    grid-area: content;
+    background: #445670;
+  }
+  &__settings {
+    background: #5e718b;
+  }
+  &__footer {
+    grid-area: footer;
+    background: #000;
+  }
+}
+
+
+
+
+@import "./styles/block.scss";
+@import "./styles/component.scss";
+@import "./styles/node.scss";
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.components {
+  &__section {
+    border-bottom: 1px solid #6e839e;
+    padding: 10px 10px 50px 10px;
+  }
+
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+}
+
+
+.block.overed {
+  position: relative;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 4px;
+    height: 2px;
+    background: #fff;
+    width: calc(100% - 8px);
+  }
+}
+
+.block {
+  cursor: pointer;
+}
+
+
+button {
+  color: #fff;
+  padding: 8px 15px;
+  background: #445670;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.settings {
+  padding: 10px;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+}
+
+
+.holst {
+  overflow: hidden;
+  &:active {
+    cursor: grabbing;
+  }
+}
